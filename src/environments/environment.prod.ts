@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiurl: "http://cscie31.jeremyguillette.com:8080/"
 };

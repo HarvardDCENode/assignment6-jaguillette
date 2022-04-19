@@ -5,12 +5,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { TimelinesComponent } from './timelines/timelines.component';
 import { OneTimelineComponent } from './one-timeline/one-timeline.component';
+import { OneTimelineEventComponent } from './one-timeline-event/one-timeline-event.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TimelinesComponent,
-    OneTimelineComponent
+    OneTimelineComponent,
+    OneTimelineEventComponent
   ],
   imports: [
     BrowserModule,
