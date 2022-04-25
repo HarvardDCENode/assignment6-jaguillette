@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TimelineService } from '../timeline.service';
 
 @Component({
+  // Timeline container component. Lists out timelines using subcomponent.
   selector: 'app-timelines',
   templateUrl: './timelines.component.html',
   styleUrls: ['./timelines.component.css'],
